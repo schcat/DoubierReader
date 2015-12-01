@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		69CFADB31C0DE31B003B643F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 69CFADB21C0DE31B003B643F /* main.m */; };
+		69CFADB61C0DE31B003B643F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 69CFADB51C0DE31B003B643F /* AppDelegate.m */; };
+		69CFADB91C0DE31B003B643F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69CFADB81C0DE31B003B643F /* ViewController.m */; };
+		69CFADBC1C0DE31B003B643F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69CFADBA1C0DE31B003B643F /* Main.storyboard */; };
+		69CFADBE1C0DE31B003B643F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69CFADBD1C0DE31B003B643F /* Assets.xcassets */; };
+		69CFADC11C0DE31B003B643F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69CFADBF1C0DE31B003B643F /* LaunchScreen.storyboard */; };
+		69CFADCC1C0DE31B003B643F /* DoubierReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 69CFADCB1C0DE31B003B643F /* DoubierReaderTests.m */; };
+		69CFADD71C0DE31B003B643F /* DoubierReaderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 69CFADD61C0DE31B003B643F /* DoubierReaderUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		69CFADC81C0DE31B003B643F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69CFADA61C0DE31B003B643F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69CFADAD1C0DE31B003B643F;
+			remoteInfo = DoubierReader;
+		};
+		69CFADD31C0DE31B003B643F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69CFADA61C0DE31B003B643F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69CFADAD1C0DE31B003B643F;
+			remoteInfo = DoubierReader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		69CFADAE1C0DE31B003B643F /* DoubierReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoubierReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		69CFADB21C0DE31B003B643F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		69CFADB41C0DE31B003B643F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		69CFADB51C0DE31B003B643F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		69CFADB71C0DE31B003B643F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		69CFADB81C0DE31B003B643F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		69CFADBB1C0DE31B003B643F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		69CFADBD1C0DE31B003B643F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		69CFADC01C0DE31B003B643F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		69CFADC21C0DE31B003B643F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69CFADC71C0DE31B003B643F /* DoubierReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoubierReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69CFADCB1C0DE31B003B643F /* DoubierReaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoubierReaderTests.m; sourceTree = "<group>"; };
+		69CFADCD1C0DE31B003B643F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69CFADD21C0DE31B003B643F /* DoubierReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoubierReaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69CFADD61C0DE31B003B643F /* DoubierReaderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoubierReaderUITests.m; sourceTree = "<group>"; };
+		69CFADD81C0DE31B003B643F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69CFADAB1C0DE31B003B643F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69CFADC41C0DE31B003B643F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69CFADCF1C0DE31B003B643F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		69CFADA51C0DE31B003B643F = {
+			isa = PBXGroup;
+			children = (
+				69CFADB01C0DE31B003B643F /* DoubierReader */,
+				69CFADCA1C0DE31B003B643F /* DoubierReaderTests */,
+				69CFADD51C0DE31B003B643F /* DoubierReaderUITests */,
+				69CFADAF1C0DE31B003B643F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		69CFADAF1C0DE31B003B643F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69CFADAE1C0DE31B003B643F /* DoubierReader.app */,
+				69CFADC71C0DE31B003B643F /* DoubierReaderTests.xctest */,
+				69CFADD21C0DE31B003B643F /* DoubierReaderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69CFADB01C0DE31B003B643F /* DoubierReader */ = {
+			isa = PBXGroup;
+			children = (
+				69CFADB41C0DE31B003B643F /* AppDelegate.h */,
+				69CFADB51C0DE31B003B643F /* AppDelegate.m */,
+				69CFADB71C0DE31B003B643F /* ViewController.h */,
+				69CFADB81C0DE31B003B643F /* ViewController.m */,
+				69CFADBA1C0DE31B003B643F /* Main.storyboard */,
+				69CFADBD1C0DE31B003B643F /* Assets.xcassets */,
+				69CFADBF1C0DE31B003B643F /* LaunchScreen.storyboard */,
+				69CFADC21C0DE31B003B643F /* Info.plist */,
+				69CFADB11C0DE31B003B643F /* Supporting Files */,
+			);
+			path = DoubierReader;
+			sourceTree = "<group>";
+		};
+		69CFADB11C0DE31B003B643F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				69CFADB21C0DE31B003B643F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		69CFADCA1C0DE31B003B643F /* DoubierReaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				69CFADCB1C0DE31B003B643F /* DoubierReaderTests.m */,
+				69CFADCD1C0DE31B003B643F /* Info.plist */,
+			);
+			path = DoubierReaderTests;
+			sourceTree = "<group>";
+		};
+		69CFADD51C0DE31B003B643F /* DoubierReaderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				69CFADD61C0DE31B003B643F /* DoubierReaderUITests.m */,
+				69CFADD81C0DE31B003B643F /* Info.plist */,
+			);
+			path = DoubierReaderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		69CFADAD1C0DE31B003B643F /* DoubierReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69CFADDB1C0DE31B003B643F /* Build configuration list for PBXNativeTarget "DoubierReader" */;
+			buildPhases = (
+				69CFADAA1C0DE31B003B643F /* Sources */,
+				69CFADAB1C0DE31B003B643F /* Frameworks */,
+				69CFADAC1C0DE31B003B643F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DoubierReader;
+			productName = DoubierReader;
+			productReference = 69CFADAE1C0DE31B003B643F /* DoubierReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		69CFADC61C0DE31B003B643F /* DoubierReaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69CFADDE1C0DE31B003B643F /* Build configuration list for PBXNativeTarget "DoubierReaderTests" */;
+			buildPhases = (
+				69CFADC31C0DE31B003B643F /* Sources */,
+				69CFADC41C0DE31B003B643F /* Frameworks */,
+				69CFADC51C0DE31B003B643F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69CFADC91C0DE31B003B643F /* PBXTargetDependency */,
+			);
+			name = DoubierReaderTests;
+			productName = DoubierReaderTests;
+			productReference = 69CFADC71C0DE31B003B643F /* DoubierReaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		69CFADD11C0DE31B003B643F /* DoubierReaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69CFADE11C0DE31B003B643F /* Build configuration list for PBXNativeTarget "DoubierReaderUITests" */;
+			buildPhases = (
+				69CFADCE1C0DE31B003B643F /* Sources */,
+				69CFADCF1C0DE31B003B643F /* Frameworks */,
+				69CFADD01C0DE31B003B643F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69CFADD41C0DE31B003B643F /* PBXTargetDependency */,
+			);
+			name = DoubierReaderUITests;
+			productName = DoubierReaderUITests;
+			productReference = 69CFADD21C0DE31B003B643F /* DoubierReaderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		69CFADA61C0DE31B003B643F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Zhixue Li";
+				TargetAttributes = {
+					69CFADAD1C0DE31B003B643F = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					69CFADC61C0DE31B003B643F = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 69CFADAD1C0DE31B003B643F;
+					};
+					69CFADD11C0DE31B003B643F = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 69CFADAD1C0DE31B003B643F;
+					};
+				};
+			};
+			buildConfigurationList = 69CFADA91C0DE31B003B643F /* Build configuration list for PBXProject "DoubierReader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 69CFADA51C0DE31B003B643F;
+			productRefGroup = 69CFADAF1C0DE31B003B643F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69CFADAD1C0DE31B003B643F /* DoubierReader */,
+				69CFADC61C0DE31B003B643F /* DoubierReaderTests */,
+				69CFADD11C0DE31B003B643F /* DoubierReaderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		69CFADAC1C0DE31B003B643F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69CFADC11C0DE31B003B643F /* LaunchScreen.storyboard in Resources */,
+				69CFADBE1C0DE31B003B643F /* Assets.xcassets in Resources */,
+				69CFADBC1C0DE31B003B643F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69CFADC51C0DE31B003B643F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69CFADD01C0DE31B003B643F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69CFADAA1C0DE31B003B643F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69CFADB91C0DE31B003B643F /* ViewController.m in Sources */,
+				69CFADB61C0DE31B003B643F /* AppDelegate.m in Sources */,
+				69CFADB31C0DE31B003B643F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69CFADC31C0DE31B003B643F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69CFADCC1C0DE31B003B643F /* DoubierReaderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69CFADCE1C0DE31B003B643F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69CFADD71C0DE31B003B643F /* DoubierReaderUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		69CFADC91C0DE31B003B643F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69CFADAD1C0DE31B003B643F /* DoubierReader */;
+			targetProxy = 69CFADC81C0DE31B003B643F /* PBXContainerItemProxy */;
+		};
+		69CFADD41C0DE31B003B643F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69CFADAD1C0DE31B003B643F /* DoubierReader */;
+			targetProxy = 69CFADD31C0DE31B003B643F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		69CFADBA1C0DE31B003B643F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69CFADBB1C0DE31B003B643F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		69CFADBF1C0DE31B003B643F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69CFADC01C0DE31B003B643F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		69CFADD91C0DE31B003B643F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		69CFADDA1C0DE31B003B643F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		69CFADDC1C0DE31B003B643F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DoubierReader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.schcat.DoubierReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		69CFADDD1C0DE31B003B643F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DoubierReader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.schcat.DoubierReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		69CFADDF1C0DE31B003B643F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DoubierReaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.schcat.DoubierReaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DoubierReader.app/DoubierReader";
+			};
+			name = Debug;
+		};
+		69CFADE01C0DE31B003B643F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DoubierReaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.schcat.DoubierReaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DoubierReader.app/DoubierReader";
+			};
+			name = Release;
+		};
+		69CFADE21C0DE31B003B643F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DoubierReaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.schcat.DoubierReaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DoubierReader;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		69CFADE31C0DE31B003B643F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DoubierReaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.schcat.DoubierReaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DoubierReader;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69CFADA91C0DE31B003B643F /* Build configuration list for PBXProject "DoubierReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69CFADD91C0DE31B003B643F /* Debug */,
+				69CFADDA1C0DE31B003B643F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69CFADDB1C0DE31B003B643F /* Build configuration list for PBXNativeTarget "DoubierReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69CFADDC1C0DE31B003B643F /* Debug */,
+				69CFADDD1C0DE31B003B643F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		69CFADDE1C0DE31B003B643F /* Build configuration list for PBXNativeTarget "DoubierReaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69CFADDF1C0DE31B003B643F /* Debug */,
+				69CFADE01C0DE31B003B643F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		69CFADE11C0DE31B003B643F /* Build configuration list for PBXNativeTarget "DoubierReaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69CFADE21C0DE31B003B643F /* Debug */,
+				69CFADE31C0DE31B003B643F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 69CFADA61C0DE31B003B643F /* Project object */;
+}
