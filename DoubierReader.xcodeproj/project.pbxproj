@@ -7,14 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6917977F1C181CC600D6B6D4 /* otherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6917977D1C181CC600D6B6D4 /* otherViewController.m */; };
+		691797801C181CC600D6B6D4 /* otherViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6917977E1C181CC600D6B6D4 /* otherViewController.xib */; };
+		691797841C1823CF00D6B6D4 /* LeftSlideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 691797821C1823CF00D6B6D4 /* LeftSlideViewController.m */; };
+		691797881C187A3700D6B6D4 /* UIView_extra.m in Sources */ = {isa = PBXBuildFile; fileRef = 691797871C187A3700D6B6D4 /* UIView_extra.m */; };
+		69179A8F1C1CEE9200D6B6D4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69179A8E1C1CEE9200D6B6D4 /* UIKit.framework */; };
+		69179A941C1EEC2800D6B6D4 /* leftbackiamge.png in Resources */ = {isa = PBXBuildFile; fileRef = 69179A931C1EEC2800D6B6D4 /* leftbackiamge.png */; };
+		69179A961C1EEC2F00D6B6D4 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 69179A951C1EEC2F00D6B6D4 /* menu.png */; };
+		69179A981C1EECA700D6B6D4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69179A971C1EECA700D6B6D4 /* LaunchScreen.xib */; };
+		69179ADA1C200DB700D6B6D4 /* LSYViewPagerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 69179AD91C200DB700D6B6D4 /* LSYViewPagerVC.m */; };
+		69179ADD1C20128200D6B6D4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69179ADC1C20128200D6B6D4 /* ViewController.m */; };
+		69179AE01C20133200D6B6D4 /* TestTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = 69179ADF1C20133200D6B6D4 /* TestTabView.m */; };
 		69CFADB31C0DE31B003B643F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 69CFADB21C0DE31B003B643F /* main.m */; };
 		69CFADB61C0DE31B003B643F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 69CFADB51C0DE31B003B643F /* AppDelegate.m */; };
-		69CFADB91C0DE31B003B643F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69CFADB81C0DE31B003B643F /* ViewController.m */; };
-		69CFADBC1C0DE31B003B643F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69CFADBA1C0DE31B003B643F /* Main.storyboard */; };
 		69CFADBE1C0DE31B003B643F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69CFADBD1C0DE31B003B643F /* Assets.xcassets */; };
-		69CFADC11C0DE31B003B643F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69CFADBF1C0DE31B003B643F /* LaunchScreen.storyboard */; };
 		69CFADCC1C0DE31B003B643F /* DoubierReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 69CFADCB1C0DE31B003B643F /* DoubierReaderTests.m */; };
 		69CFADD71C0DE31B003B643F /* DoubierReaderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 69CFADD61C0DE31B003B643F /* DoubierReaderUITests.m */; };
+		69CFADE71C0E780A003B643F /* MyReadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69CFADE51C0E780A003B643F /* MyReadingViewController.m */; };
+		69CFADEC1C0E783E003B643F /* FindingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69CFADEA1C0E783E003B643F /* FindingViewController.m */; };
+		69CFADED1C0E783E003B643F /* FindingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69CFADEB1C0E783E003B643F /* FindingViewController.xib */; };
+		69CFADF11C0E7881003B643F /* ReadingNotesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69CFADEF1C0E7881003B643F /* ReadingNotesViewController.m */; };
+		69CFADF21C0E7881003B643F /* ReadingNotesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69CFADF01C0E7881003B643F /* ReadingNotesViewController.xib */; };
+		69CFADF81C0E83F4003B643F /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69CFADF61C0E83F4003B643F /* MainViewController.m */; };
+		69CFADFD1C0FF573003B643F /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69CFADFB1C0FF573003B643F /* SettingViewController.m */; };
+		69CFADFE1C0FF573003B643F /* SettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69CFADFC1C0FF573003B643F /* SettingViewController.xib */; };
+		69CFAE021C0FF5C6003B643F /* SearchingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69CFAE001C0FF5C6003B643F /* SearchingViewController.m */; };
+		69CFAE031C0FF5C6003B643F /* SearchingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69CFAE011C0FF5C6003B643F /* SearchingViewController.xib */; };
+		69E5AE751C4A1C3300C28A55 /* IMG_4203.png in Resources */ = {isa = PBXBuildFile; fileRef = 69E5AE741C4A1C3300C28A55 /* IMG_4203.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,15 +54,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6917977C1C181CC600D6B6D4 /* otherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = otherViewController.h; sourceTree = "<group>"; };
+		6917977D1C181CC600D6B6D4 /* otherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = otherViewController.m; sourceTree = "<group>"; };
+		6917977E1C181CC600D6B6D4 /* otherViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = otherViewController.xib; sourceTree = "<group>"; };
+		691797811C1823CF00D6B6D4 /* LeftSlideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftSlideViewController.h; sourceTree = "<group>"; };
+		691797821C1823CF00D6B6D4 /* LeftSlideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftSlideViewController.m; sourceTree = "<group>"; };
+		691797861C187A3700D6B6D4 /* UIView_extra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIView_extra.h; sourceTree = "<group>"; };
+		691797871C187A3700D6B6D4 /* UIView_extra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIView_extra.m; sourceTree = "<group>"; };
+		69179A8E1C1CEE9200D6B6D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		69179A931C1EEC2800D6B6D4 /* leftbackiamge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = leftbackiamge.png; path = ../../../../Desktop/leftbackiamge.png; sourceTree = "<group>"; };
+		69179A951C1EEC2F00D6B6D4 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = menu.png; path = ../../../../Desktop/menu.png; sourceTree = "<group>"; };
+		69179A971C1EECA700D6B6D4 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		69179AD81C200DB700D6B6D4 /* LSYViewPagerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSYViewPagerVC.h; sourceTree = "<group>"; };
+		69179AD91C200DB700D6B6D4 /* LSYViewPagerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSYViewPagerVC.m; sourceTree = "<group>"; };
+		69179ADB1C20128200D6B6D4 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		69179ADC1C20128200D6B6D4 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		69179ADE1C20133200D6B6D4 /* TestTabView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTabView.h; sourceTree = "<group>"; };
+		69179ADF1C20133200D6B6D4 /* TestTabView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTabView.m; sourceTree = "<group>"; };
 		69CFADAE1C0DE31B003B643F /* DoubierReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoubierReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69CFADB21C0DE31B003B643F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		69CFADB41C0DE31B003B643F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		69CFADB51C0DE31B003B643F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		69CFADB71C0DE31B003B643F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		69CFADB81C0DE31B003B643F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		69CFADBB1C0DE31B003B643F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		69CFADBD1C0DE31B003B643F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		69CFADC01C0DE31B003B643F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		69CFADC21C0DE31B003B643F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		69CFADC71C0DE31B003B643F /* DoubierReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoubierReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		69CFADCB1C0DE31B003B643F /* DoubierReaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoubierReaderTests.m; sourceTree = "<group>"; };
@@ -51,6 +83,23 @@
 		69CFADD21C0DE31B003B643F /* DoubierReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoubierReaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		69CFADD61C0DE31B003B643F /* DoubierReaderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoubierReaderUITests.m; sourceTree = "<group>"; };
 		69CFADD81C0DE31B003B643F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69CFADE41C0E780A003B643F /* MyReadingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyReadingViewController.h; sourceTree = "<group>"; };
+		69CFADE51C0E780A003B643F /* MyReadingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyReadingViewController.m; sourceTree = "<group>"; };
+		69CFADE91C0E783E003B643F /* FindingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindingViewController.h; sourceTree = "<group>"; };
+		69CFADEA1C0E783E003B643F /* FindingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindingViewController.m; sourceTree = "<group>"; };
+		69CFADEB1C0E783E003B643F /* FindingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FindingViewController.xib; sourceTree = "<group>"; };
+		69CFADEE1C0E7881003B643F /* ReadingNotesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadingNotesViewController.h; sourceTree = "<group>"; };
+		69CFADEF1C0E7881003B643F /* ReadingNotesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReadingNotesViewController.m; sourceTree = "<group>"; };
+		69CFADF01C0E7881003B643F /* ReadingNotesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReadingNotesViewController.xib; sourceTree = "<group>"; };
+		69CFADF51C0E83F4003B643F /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = ../MainViewController.h; sourceTree = "<group>"; };
+		69CFADF61C0E83F4003B643F /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = ../MainViewController.m; sourceTree = "<group>"; };
+		69CFADFA1C0FF573003B643F /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		69CFADFB1C0FF573003B643F /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		69CFADFC1C0FF573003B643F /* SettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingViewController.xib; sourceTree = "<group>"; };
+		69CFADFF1C0FF5C6003B643F /* SearchingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchingViewController.h; sourceTree = "<group>"; };
+		69CFAE001C0FF5C6003B643F /* SearchingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchingViewController.m; sourceTree = "<group>"; };
+		69CFAE011C0FF5C6003B643F /* SearchingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchingViewController.xib; sourceTree = "<group>"; };
+		69E5AE741C4A1C3300C28A55 /* IMG_4203.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_4203.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69179A8F1C1CEE9200D6B6D4 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +131,7 @@
 		69CFADA51C0DE31B003B643F = {
 			isa = PBXGroup;
 			children = (
+				69179A8E1C1CEE9200D6B6D4 /* UIKit.framework */,
 				69CFADB01C0DE31B003B643F /* DoubierReader */,
 				69CFADCA1C0DE31B003B643F /* DoubierReaderTests */,
 				69CFADD51C0DE31B003B643F /* DoubierReaderUITests */,
@@ -103,11 +154,36 @@
 			children = (
 				69CFADB41C0DE31B003B643F /* AppDelegate.h */,
 				69CFADB51C0DE31B003B643F /* AppDelegate.m */,
-				69CFADB71C0DE31B003B643F /* ViewController.h */,
-				69CFADB81C0DE31B003B643F /* ViewController.m */,
-				69CFADBA1C0DE31B003B643F /* Main.storyboard */,
+				69CFADF51C0E83F4003B643F /* MainViewController.h */,
+				69CFADF61C0E83F4003B643F /* MainViewController.m */,
+				69179AD81C200DB700D6B6D4 /* LSYViewPagerVC.h */,
+				69179AD91C200DB700D6B6D4 /* LSYViewPagerVC.m */,
+				69179ADB1C20128200D6B6D4 /* ViewController.h */,
+				69179ADC1C20128200D6B6D4 /* ViewController.m */,
+				69179ADE1C20133200D6B6D4 /* TestTabView.h */,
+				69179ADF1C20133200D6B6D4 /* TestTabView.m */,
+				69CFADFA1C0FF573003B643F /* SettingViewController.h */,
+				69CFADFB1C0FF573003B643F /* SettingViewController.m */,
+				691797811C1823CF00D6B6D4 /* LeftSlideViewController.h */,
+				691797861C187A3700D6B6D4 /* UIView_extra.h */,
+				691797871C187A3700D6B6D4 /* UIView_extra.m */,
+				691797821C1823CF00D6B6D4 /* LeftSlideViewController.m */,
+				6917977C1C181CC600D6B6D4 /* otherViewController.h */,
+				6917977D1C181CC600D6B6D4 /* otherViewController.m */,
+				6917977E1C181CC600D6B6D4 /* otherViewController.xib */,
+				69CFADFC1C0FF573003B643F /* SettingViewController.xib */,
+				69CFADFF1C0FF5C6003B643F /* SearchingViewController.h */,
+				69CFAE001C0FF5C6003B643F /* SearchingViewController.m */,
+				69CFAE011C0FF5C6003B643F /* SearchingViewController.xib */,
+				69CFADE41C0E780A003B643F /* MyReadingViewController.h */,
+				69CFADE51C0E780A003B643F /* MyReadingViewController.m */,
+				69CFADE91C0E783E003B643F /* FindingViewController.h */,
+				69CFADEA1C0E783E003B643F /* FindingViewController.m */,
+				69CFADEB1C0E783E003B643F /* FindingViewController.xib */,
+				69CFADEE1C0E7881003B643F /* ReadingNotesViewController.h */,
+				69CFADEF1C0E7881003B643F /* ReadingNotesViewController.m */,
+				69CFADF01C0E7881003B643F /* ReadingNotesViewController.xib */,
 				69CFADBD1C0DE31B003B643F /* Assets.xcassets */,
-				69CFADBF1C0DE31B003B643F /* LaunchScreen.storyboard */,
 				69CFADC21C0DE31B003B643F /* Info.plist */,
 				69CFADB11C0DE31B003B643F /* Supporting Files */,
 			);
@@ -117,6 +193,10 @@
 		69CFADB11C0DE31B003B643F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				69179A971C1EECA700D6B6D4 /* LaunchScreen.xib */,
+				69E5AE741C4A1C3300C28A55 /* IMG_4203.png */,
+				69179A931C1EEC2800D6B6D4 /* leftbackiamge.png */,
+				69179A951C1EEC2F00D6B6D4 /* menu.png */,
 				69CFADB21C0DE31B003B643F /* main.m */,
 			);
 			name = "Supporting Files";
@@ -243,9 +323,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69CFADC11C0DE31B003B643F /* LaunchScreen.storyboard in Resources */,
+				69E5AE751C4A1C3300C28A55 /* IMG_4203.png in Resources */,
+				69179A981C1EECA700D6B6D4 /* LaunchScreen.xib in Resources */,
 				69CFADBE1C0DE31B003B643F /* Assets.xcassets in Resources */,
-				69CFADBC1C0DE31B003B643F /* Main.storyboard in Resources */,
+				691797801C181CC600D6B6D4 /* otherViewController.xib in Resources */,
+				69CFADFE1C0FF573003B643F /* SettingViewController.xib in Resources */,
+				69CFADF21C0E7881003B643F /* ReadingNotesViewController.xib in Resources */,
+				69179A941C1EEC2800D6B6D4 /* leftbackiamge.png in Resources */,
+				69CFAE031C0FF5C6003B643F /* SearchingViewController.xib in Resources */,
+				69CFADED1C0E783E003B643F /* FindingViewController.xib in Resources */,
+				69179A961C1EEC2F00D6B6D4 /* menu.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +357,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69CFADB91C0DE31B003B643F /* ViewController.m in Sources */,
+				691797881C187A3700D6B6D4 /* UIView_extra.m in Sources */,
+				69CFADF11C0E7881003B643F /* ReadingNotesViewController.m in Sources */,
+				691797841C1823CF00D6B6D4 /* LeftSlideViewController.m in Sources */,
+				69CFADF81C0E83F4003B643F /* MainViewController.m in Sources */,
 				69CFADB61C0DE31B003B643F /* AppDelegate.m in Sources */,
+				69179AE01C20133200D6B6D4 /* TestTabView.m in Sources */,
+				69CFADFD1C0FF573003B643F /* SettingViewController.m in Sources */,
+				69179ADD1C20128200D6B6D4 /* ViewController.m in Sources */,
+				69CFADEC1C0E783E003B643F /* FindingViewController.m in Sources */,
+				6917977F1C181CC600D6B6D4 /* otherViewController.m in Sources */,
 				69CFADB31C0DE31B003B643F /* main.m in Sources */,
+				69CFADE71C0E780A003B643F /* MyReadingViewController.m in Sources */,
+				69179ADA1C200DB700D6B6D4 /* LSYViewPagerVC.m in Sources */,
+				69CFAE021C0FF5C6003B643F /* SearchingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,25 +404,6 @@
 			targetProxy = 69CFADD31C0DE31B003B643F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		69CFADBA1C0DE31B003B643F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				69CFADBB1C0DE31B003B643F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		69CFADBF1C0DE31B003B643F /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				69CFADC01C0DE31B003B643F /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		69CFADD91C0DE31B003B643F /* Debug */ = {
@@ -363,7 +442,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -400,7 +479,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -496,6 +575,7 @@
 				69CFADDD1C0DE31B003B643F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		69CFADDE1C0DE31B003B643F /* Build configuration list for PBXNativeTarget "DoubierReaderTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +584,7 @@
 				69CFADE01C0DE31B003B643F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		69CFADE11C0DE31B003B643F /* Build configuration list for PBXNativeTarget "DoubierReaderUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +593,7 @@
 				69CFADE31C0DE31B003B643F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

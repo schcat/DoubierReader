@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "MainViewController.h"
+#import "SettingViewController.h"
+//#import "MyReadingViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +20,20 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];   //设置通用背景颜色
+    [self.window makeKeyAndVisible];
+    
+    MainViewController *mainview = [[MainViewController alloc] init];
+//    self.mainNavigationController = [[UINavigationController alloc] initWithRootViewController:mainview];
+    SettingViewController *leftVC = [[SettingViewController alloc] init];
+    
+    self.LeftSlideVC = [[LeftSlideViewController alloc] initWithLeftView:leftVC andMainView:mainview];
+    
+    self.window.rootViewController = self.LeftSlideVC;
+    [[UINavigationBar appearance] setBarTintColor:[UIColor purpleColor]];
+    
     return YES;
 }
 

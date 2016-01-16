@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TestTableView.h
 //  DoubierReader
 //
 //  Created by Zhixue Li on 12/15/15.
@@ -7,8 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "LSYViewPagerVC.h"
-@interface ViewController : LSYViewPagerVC
 
-
+@interface TestTabView : UIViewController
+@property (nonatomic,copy) NSString *content;
 @end
